@@ -1,0 +1,8 @@
+[Flatpak Ref]
+Name=org.freesmlauncher.FreesmLauncher
+Branch=stable
+Title=Freesm Launcher
+Url=https://flatpak.freesmlauncher.org/
+RuntimeRepo=https://dl.flathub.org/repo/flathub.flatpakrepo
+IsRuntime=false
+GPGKey=mDMEaeuztBYJKwYBBAHaRw8BAQdA1pL04ISst87N09ReBify6ioo4xEociJqI1Tk/y+jUaK0OnNvNWlzbzRrYSAoRnJlZXNtIExhdW5jaGVyIGZsYXRwYWspIDxzbzVpc280a2FAaWNsb3VkLmNvbT6IlgQTFgoAPhYhBAVtzXn+/1NPwDWpb7LW3iluRYoqBQJp67O0AhsDBQkDwmcABQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJELLW3iluRYoqX8cA/2WbqhvYp8gqsWrJEZKXr3LpcPz0mLEosX+P2dnfKMssAQCazbYu1raL/Tb84mV7lNaZGlGP5u+usEKNxToNZYpdCw==

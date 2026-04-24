@@ -3,3 +3,4 @@ build.sh
 .flatpak-builder
 flatrepo
 *.flatpak
+/.idea/

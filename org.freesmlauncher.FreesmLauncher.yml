@@ -1,11 +1,11 @@
-id: org.prismlauncher.PrismLauncher
+id: org.freesmlauncher.FreesmLauncher
 runtime: org.kde.Platform
 runtime-version: '6.10'
 sdk: org.kde.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk17
 
-command: prismlauncher
+command: freesmlauncher
 finish-args:
   - --share=ipc
   - --socket=x11
@@ -37,7 +37,7 @@ modules:
   # /w patch for pipewire
   - flite.json
 
-  - name: prismlauncher
+  - name: freesmlauncher
     buildsystem: cmake-ninja
     builddir: true
     config-opts:
@@ -51,13 +51,13 @@ modules:
         JAVA_COMPILER: /usr/lib/sdk/openjdk17/jvm/openjdk-17/bin/javac
     sources:
       - type: archive
-        url: https://github.com/PrismLauncher/PrismLauncher/releases/download/11.0.2/PrismLauncher-11.0.2.tar.gz
-        sha256: 8956e9351bcb0472fc9c2c61ae68aa2960f27f7cabb1cacd86dd2af1c233a064
+        url: https://github.com/FreesmTeam/FreesmLauncher/releases/download/2.1.1/FreesmLauncher-2.1.1.tar.gz
+        sha256: 0ad6dad55a21e56020827fb06f9c72ac2b124bf977b3544b283d7ce663fded45
         x-checker-data:
           type: json
-          url: https://api.github.com/repos/PrismLauncher/PrismLauncher/releases/latest
+          url: https://api.github.com/repos/FreesmTeam/FreesmLauncher/releases/latest
           version-query: .tag_name
-          url-query: .assets[] | select(.name == "PrismLauncher-" + $version + ".tar.gz")
+          url-query: .assets[] | select(.name == "FreesmLauncher-" + $version + ".tar.gz")
             | .browser_download_url
 
   - name: glfw
@@ -126,10 +126,10 @@ modules:
     buildsystem: simple
     build-commands:
       - install -Dm755 prime-run /app/bin/prime-run
-      - mv /app/bin/prismlauncher /app/bin/prismrun
-      - install -Dm755 prismlauncher /app/bin/prismlauncher
+      - mv /app/bin/freesmlauncher /app/bin/freesmrun
+      - install -Dm755 freesmlauncher /app/bin/freesmlauncher
     sources:
       - type: file
         path: prime-run
       - type: file
-        path: prismlauncher
+        path: freesmlauncher

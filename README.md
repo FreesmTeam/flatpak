@@ -1,6 +1,6 @@
-# org.prismlauncher.PrismLauncher
+# org.freesmlauncher.FreesmLauncher
 
-A flatpak for [PrismLauncher](https://github.com/PrismLauncher/PrismLauncher)
+A flatpak for [Freesm Launcher](https://github.com/FreesmTeam/FreesmLauncher)
 Please see upstream README for more information.
 
 ## FAQ
@@ -13,7 +13,7 @@ Please see upstream README for more information.
 flatpak install org.freedesktop.Platform.VulkanLayer.MangoHud//24.08
 ```
 
-2\. Open Prism, click on the **Settings** button
+2\. Open Freesm, click on the **Settings** button
 
 3\. Select **Minecraft** from the left panel
 
@@ -23,7 +23,7 @@ flatpak install org.freedesktop.Platform.VulkanLayer.MangoHud//24.08
 
 That's it!
 
-### How do I run MC on a hybrid GPU system with a dedicated NVIDIA GPU using Prism Launcher?
+### How do I run MC on a hybrid GPU system with a dedicated NVIDIA GPU using Freesm Launcher?
 
 The flatpak includes a `prime-run` script, which when set as the wrapper command in instance settings, runs MC using the Nvidia GPU.  
 Soon this should be unneccesary, as it has been fixed in the master branch of the launcher already.
