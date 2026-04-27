@@ -51,8 +51,8 @@ modules:
         JAVA_COMPILER: /usr/lib/sdk/openjdk17/jvm/openjdk-17/bin/javac
     sources:
       - type: archive
-        url: https://github.com/FreesmTeam/FreesmLauncher/releases/download/2.1.1/FreesmLauncher-2.1.1.tar.gz
-        sha256: 0ad6dad55a21e56020827fb06f9c72ac2b124bf977b3544b283d7ce663fded45
+        url: https://github.com/FreesmTeam/FreesmLauncher/releases/download/2.2.0/FreesmLauncher-2.2.0.tar.gz
+        sha256: 2f1d030e94fd5bfb771c98d64f0024cb7258edbe8fa22296aa1a05a5c787f4b1
         x-checker-data:
           type: json
           url: https://api.github.com/repos/FreesmTeam/FreesmLauncher/releases/latest

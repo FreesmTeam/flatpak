@@ -3,6 +3,17 @@
 A flatpak for [Freesm Launcher](https://github.com/FreesmTeam/FreesmLauncher)
 Please see upstream README for more information.
 
+## Usage
+
+Our repository can be added through its `.flatpakrepo` in most software centers using [this link](https://flatpak.freesmlauncher.org/freesmlauncher.flatpakrepo).
+
+You can also start using it through the CLI:
+
+```bash
+$ flatpak remote-add --if-not-exists freesmlauncher https://flatpak.freesmlauncher.org/freesmlauncher.flatpakrepo
+$ flatpak install org.freesmlauncher.FreesmLauncher
+```
+
 ## FAQ
 
 ### How to use MangoHud
